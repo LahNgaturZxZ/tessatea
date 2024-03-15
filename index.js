@@ -25,7 +25,7 @@ const morganVersion = morgan.version;
 const helmetVersion = helmet.version;
 
 const generateRandomNumber = () => {
-  return _.random(1, 100);
+  return _.random(1, 500);
 };
 
 const fetchData = async () => {
